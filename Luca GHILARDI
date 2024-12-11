@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Luca Ghilardi</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e0eafc, #cfdef3);
+            color: #333;
+        }
+
+        header {
+            background: #2d4059;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p {
+            margin: 0.5rem 0;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        section h2 {
+            border-bottom: 2px solid #2d4059;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            color: #2d4059;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: white;
+            margin: 0.5rem 0;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .contact div {
+            flex: 1 1 calc(50% - 1rem);
+            background: white;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact div p {
+            margin: 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #2d4059;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Luca Ghilardi</h1>
+        <p>Étudiant en Master ERIC - Europe et Relations Internationales Contemporaines</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>À propos de moi</h2>
+            <p>Je suis un étudiant passionné par les relations internationales et l'histoire contemporaine, doté d'un esprit critique et de solides compétences en gestion de projet, analyse et rédaction.</p>
+        </section>
+
+        <section>
+            <h2>Formation</h2>
+            <ul>
+                <li><strong>2024 - 2026 :</strong> Master ERIC, Université de Lorraine</li>
+                <li><strong>2021 - 2024 :</strong> Licence Histoire, Université de Bordeaux Montaigne</li>
+                <li><strong>2020 - 2021 :</strong> PASS - Option STAPS, Université de Bordeaux</li>
+                <li><strong>2019 - 2020 :</strong> Baccalauréat Scientifique (mention bien), Lycée George Sand</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Expériences professionnelles</h2>
+            <ul>
+                <li><strong>Août 2024 :</strong> Agent de Mairie, Municipalité de Nérac</li>
+                <li><strong>Juillet 2024 :</strong> Runner/Plongeur, Le Pim'Pi Bistrot</li>
+                <li><strong>Mai - Juillet 2023/2022 :</strong> Employé libre-service, Intermarché</li>
+                <li><strong>Février - Juillet 2021 :</strong> Préparateur de commandes, Intermarché</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Compétences</h2>
+            <ul>
+                <li>Rédaction institutionnelle</li>
+                <li>Études et recherche documentaire</li>
+                <li>Gestion de projets</li>
+                <li>Pack Office</li>
+                <li>Esprit critique et analyse</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact</h2>
+            <div class="contact">
+                <div>
+                    <p><strong>Email :</strong> ghilardiluca@icloud.com</p>
+                    <p><strong>Téléphone :</strong> 07.68.53.01.31</p>
+                </div>
+                <div>
+                    <p><strong>Adresse :</strong> 38 Rue du vignoble, 57070, Metz</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Luca Ghilardi. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
